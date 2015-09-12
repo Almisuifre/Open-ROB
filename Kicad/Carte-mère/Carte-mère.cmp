@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = sam. 12 sept. 2015 21:29:48 CEST
+
+BeginCmp
+TimeStamp = /55F46466;
+Reference = ARD1;
+ValeurCmp = Arduino_Nano;
+IdModule  = Arduino:Arduino Nano;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F47FD1;
+Reference = DRV1;
+ValeurCmp = POLOLU-DRV8825;
+IdModule  = POLOLU-DRV8825:POLOLU-DRV8825;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F4802E;
+Reference = DRV2;
+ValeurCmp = POLOLU-DRV8825;
+IdModule  = POLOLU-DRV8825:POLOLU-DRV8825;
+EndCmp
+
+EndListe

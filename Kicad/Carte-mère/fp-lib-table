@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Arduino)(type KiCad)(uri /home/alexandre/Documents/Git-Open-ROB/Kicad/Librairie/Arduino.pretty/)(options "")(descr ""))
+  (lib (name POLOLU-DRV8825)(type KiCad)(uri /home/alexandre/Documents/Git-Open-ROB/Kicad/Librairie/POLOLU-DRV8825.pretty/)(options "")(descr ""))
+)
