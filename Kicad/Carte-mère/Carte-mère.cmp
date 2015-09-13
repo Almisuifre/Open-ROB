@@ -1,10 +1,24 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = sam. 12 sept. 2015 21:29:48 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = dim. 13 sept. 2015 01:54:33 CEST
 
 BeginCmp
 TimeStamp = /55F46466;
 Reference = ARD1;
 ValeurCmp = Arduino_Nano;
 IdModule  = Arduino:Arduino Nano;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F48580;
+Reference = CONN1;
+ValeurCmp = CONN_2;
+IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F4BEA4;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
@@ -19,6 +33,76 @@ TimeStamp = /55F4802E;
 Reference = DRV2;
 ValeurCmp = POLOLU-DRV8825;
 IdModule  = POLOLU-DRV8825:POLOLU-DRV8825;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F4A97B;
+Reference = JP1;
+ValeurCmp = JUMPER3;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F4AAAA;
+Reference = JP2;
+ValeurCmp = JUMPER3;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F4A5C3;
+Reference = P1;
+ValeurCmp = CONN_01X10;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F49CDD;
+Reference = P2;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F4B564;
+Reference = P3;
+ValeurCmp = CONN_01X06;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F4B798;
+Reference = P4;
+ValeurCmp = CONN_01X06;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F48D99;
+Reference = P5;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F48DF5;
+Reference = P6;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F4BC96;
+Reference = R1;
+ValeurCmp = 200;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F49428;
+Reference = SD-C1;
+ValeurCmp = DFR_SD-CARD;
+IdModule  = DF-ROBOT_SD-CARD:DFR_SD-CARD;
 EndCmp
 
 EndListe
