@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Bouton_poussoir_CI
+#
+DEF Bouton_poussoir_CI BPN 0 40 Y Y 1 F N
+F0 "BPN" 300 0 60 V V C CNN
+F1 "Bouton_poussoir_CI" 200 50 60 V V C CNN
+F2 "" 200 0 60 H V C CNN
+F3 "" 200 0 60 H V C CNN
+DRAW
+P 2 0 1 0  -300 0  -200 0 N
+P 2 0 1 0  -150 0  -50 0 N
+P 2 0 1 0  -100 -100  100 -100 N
+P 2 0 1 0  -100 100  -100 200 N
+P 2 0 1 0  0 0  100 0 N
+P 2 0 1 0  100 100  100 200 N
+P 3 0 1 0  -100 -150  -100 -50  -150 100 N
+P 3 0 1 0  100 -150  100 -50  50 100 N
+P 4 0 1 0  -250 50  -300 50  -300 -50  -250 -50 N
+X A 1 -100 400 200 D 50 50 1 1 B
+X B 2 -100 -350 200 U 50 50 1 1 B
+X C 3 100 400 200 D 50 50 1 1 B
+X D 4 100 -350 200 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library

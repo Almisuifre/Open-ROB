@@ -1,10 +1,17 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = dim. 13 sept. 2015 15:41:36 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = lun. 14 sept. 2015 21:04:18 CEST
 
 BeginCmp
 TimeStamp = /55F46466;
 Reference = ARD1;
 ValeurCmp = Arduino_Nano;
 IdModule  = Arduino:Arduino Nano;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F72222;
+Reference = BPN1;
+ValeurCmp = Bouton_poussoir_CI;
+IdModule  = Boutons:BPN-CI;
 EndCmp
 
 BeginCmp
@@ -89,6 +96,13 @@ TimeStamp = /55F48DF5;
 Reference = P6;
 ValeurCmp = CONN_01X04;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F71BCA;
+Reference = P7;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
