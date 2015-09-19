@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = lun. 14 sept. 2015 21:04:18 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = sam. 19 sept. 2015 21:45:05 CEST
 
 BeginCmp
 TimeStamp = /55F46466;
@@ -43,24 +43,10 @@ IdModule  = POLOLU-DRV8825:POLOLU-DRV8825;
 EndCmp
 
 BeginCmp
-TimeStamp = /55F4A97B;
-Reference = JP1;
-ValeurCmp = JUMPER3;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
-EndCmp
-
-BeginCmp
-TimeStamp = /55F4AAAA;
-Reference = JP2;
-ValeurCmp = JUMPER3;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
-EndCmp
-
-BeginCmp
-TimeStamp = /55F4A5C3;
+TimeStamp = /55FDC168;
 Reference = P1;
-ValeurCmp = CONN_01X10;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
+ValeurCmp = CONN_01X08;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x08;
 EndCmp
 
 BeginCmp
