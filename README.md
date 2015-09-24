@@ -1,5 +1,5 @@
 # Open-ROB
-Un robot open source
+Un robot modulaire open source.
 
 L'ensemble repose sur des logiciels Open Source
 
