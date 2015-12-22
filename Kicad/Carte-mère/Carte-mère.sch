@@ -31,7 +31,6 @@ LIBS:linear
 LIBS:logo
 LIBS:memory
 LIBS:microchip
-LIBS:microchip1
 LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
@@ -51,7 +50,6 @@ LIBS:relays
 LIBS:rfcom
 LIBS:sensors
 LIBS:siliconi
-LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -71,7 +69,6 @@ LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
 LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
 LIBS:Symbols_Socket-DIN41612_RevA
 LIBS:Symbols_Transformer-Diskrete_RevA
-LIBS:bouton_poussoir_ci
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -523,10 +520,10 @@ Text Notes 1850 3500 0    60   ~ 0
 A6
 Text Notes 1850 3600 0    60   ~ 0
 A7
-Text Notes 1850 3000 0    60   ~ 0
-GND
-Text Notes 1800 3700 0    60   ~ 0
+Text Notes 1800 3000 0    60   ~ 0
 +5V
+Text Notes 1800 3700 0    60   ~ 0
+GND
 Wire Wire Line
 	2300 3050 3350 3050
 Wire Wire Line

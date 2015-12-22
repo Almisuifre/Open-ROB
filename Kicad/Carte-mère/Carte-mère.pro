@@ -1,4 +1,4 @@
-update=lun. 14 sept. 2015 20:54:59 CEST
+update=lun. 21 déc. 2015 20:09:52 CET
 version=1
 last_client=kicad
 [general]
@@ -105,3 +105,13 @@ LibName70=contrib_symbols_dl1eic/SymbolsSimilarEN60617+oldDIN617-RevE8
 LibName71=contrib_symbols_dl1eic/Symbols_Socket-DIN41612_RevA
 LibName72=contrib_symbols_dl1eic/Symbols_Transformer-Diskrete_RevA
 LibName73=/home/alexandre/Documents/Git-Open-ROB/Kicad/Librairie/Boutons/bouton_poussoir_ci
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
