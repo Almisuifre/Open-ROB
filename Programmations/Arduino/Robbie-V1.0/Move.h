@@ -8,7 +8,7 @@ class Move {
   
     Move(int pinDirStepper1, int pinStepStepper1, int pinDirStepper2, int pinStepStepper2);
     void action(int pas, int dirStepper1, int dirStepper2);
-    void reverse(int reverseStepper1, int reverseStepper2);
+    void reverse(boolean reverseStepper1, boolean reverseStepper2);
 
   private:
     
@@ -28,3 +28,4 @@ class Move {
 };
 
 #endif
+

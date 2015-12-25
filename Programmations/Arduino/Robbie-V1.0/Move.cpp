@@ -34,7 +34,7 @@ void Move::action(int pas, int dirStepper1, int dirStepper2) {
 }
 
 /* -- SETTER / REVERSE -- */
-void Move::reverse(int reverseStepper1, int reverseStepper2) {
+void Move::reverse(boolean reverseStepper1, boolean reverseStepper2) {
   
   //Sauvegarde les datas
   _reverseStepper1 = reverseStepper1;
@@ -47,7 +47,7 @@ void Move::commande() {
   //Gère la direction du moteur 1
   //Sens normal
   if(_dirStepper1 == 1) {
-    if(_reverseStepper1 == 0) {
+    if(_reverseStepper1 == false) {
       digitalWrite(_pinDirStepper1, HIGH);
     }
     else {
@@ -56,7 +56,7 @@ void Move::commande() {
   }
   //Sens arrière
   if(_dirStepper1 == -1) {
-    if(_reverseStepper1 == 0) {
+    if(_reverseStepper1 == false) {
       digitalWrite(_pinDirStepper1, LOW);
     }
     else {
@@ -67,7 +67,7 @@ void Move::commande() {
   //Gère la directon du moteur 2
   //Sens normal
   if(_dirStepper2 == 1) {
-    if(_reverseStepper2 == 0) {
+    if(_reverseStepper2 == false) {
       digitalWrite(_pinDirStepper2, HIGH);
     }
     else {
@@ -77,7 +77,7 @@ void Move::commande() {
 
   //Sens arrère
   if(_dirStepper2 == -1) {
-    if(_reverseStepper2 == 0) {
+    if(_reverseStepper2 == false) {
       digitalWrite(_pinDirStepper2, LOW);
     }
     else {
